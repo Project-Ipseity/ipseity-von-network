@@ -13,7 +13,7 @@ else
     von_generate_transactions
 fi
 
-mkdir -p .indy_client/pool/sandbox
-cp /home/indy/ledger/sandbox/pool_transactions_genesis .indy_client/pool/sandbox/sandbox.txn
+mkdir -p .indy_client/pool/testnet
+cp /home/indy/ledger/testnet/pool_transactions_genesis .indy_client/pool/testnet/testnet.txn
 
 indy-cli "$@"

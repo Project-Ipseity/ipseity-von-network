@@ -64,7 +64,7 @@ MAX_FETCH = int(os.getenv("MAX_FETCH", "50000"))
 RESYNC_TIME = int(os.getenv("RESYNC_TIME", "120"))
 
 GENESIS_FILE = (
-    os.getenv("GENESIS_FILE") or "/home/indy/ledger/sandbox/pool_transactions_genesis"
+    os.getenv("GENESIS_FILE") or "/home/indy/ledger/testnet/pool_transactions_genesis"
 )
 GENESIS_URL = os.getenv("GENESIS_URL")
 GENESIS_VERIFIED = False
@@ -73,7 +73,7 @@ ANONYMOUS = os.getenv("ANONYMOUS")
 ANONYMOUS = bool(ANONYMOUS and ANONYMOUS != "0" and ANONYMOUS.lower() != "false")
 LEDGER_SEED = os.getenv("LEDGER_SEED")
 if not LEDGER_SEED and not ANONYMOUS:
-    LEDGER_SEED = "000000000000000000000000Trustee1"
+    LEDGER_SEED = "12150055119919892151005511999198"
 
 REGISTER_NEW_DIDS = os.getenv("REGISTER_NEW_DIDS", False)
 REGISTER_NEW_DIDS = bool(

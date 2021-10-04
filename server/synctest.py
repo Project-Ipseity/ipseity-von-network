@@ -10,14 +10,14 @@ from indy import did, ledger, pool, wallet
 LOGGER = logging.getLogger(__name__)
 
 GENESIS_FILE = (
-    os.getenv("GENESIS_FILE") or "/home/indy/ledger/sandbox/pool_transactions_genesis"
+    os.getenv("GENESIS_FILE") or "/home/indy/ledger/testnet/pool_transactions_genesis"
 )
 
 POOL = 0
 DOMAIN = 1
 CONFIG = 2
 
-LEDGER_SEED = "000000000000000000000000Trustee1"
+LEDGER_SEED = "12150055119919892151005511999198"
 
 
 async def sync():

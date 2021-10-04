@@ -1,4 +1,4 @@
-NETWORK_NAME = 'sandbox'
+NETWORK_NAME = 'testnet'
 
 LEDGER_DIR = '/home/indy/ledger'
 LOG_DIR = '/home/indy/log'

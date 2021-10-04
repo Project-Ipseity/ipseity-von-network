@@ -965,7 +965,7 @@ When we add new nodes [manually](#2-manually) from Ledgder Browser we can see 7 
 
 I' have tried to star Ledger Browser with `Where LEDGER_SEED is set to a SEED that has permissions to read the pool ledger. Must have a Network Monitor or higher role.`
 
-./manage start-web --logs GENESIS_URL=https://WEBSERVER/genesis/genesis.txn LEDGER_SEED=000000000000000000000000Trustee1
+./manage start-web --logs GENESIS_URL=https://WEBSERVER/genesis/genesis.txn LEDGER_SEED=12150055119919892151005511999198
 
 And the error in logs when acces to POOL ledger is:
 

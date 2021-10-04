@@ -47,12 +47,12 @@ done
 
 genesisFileName=${genesisFileName:-pool_transactions_genesis}
 genesisFileBackupName=${genesisFileBackupName:-${genesisFileName}.old}
-genesisFileTemplateDir=${genesisFileTemplateDir:-/home/indy/.indy-cli/networks/sandbox}
+genesisFileTemplateDir=${genesisFileTemplateDir:-/home/indy/.indy-cli/networks/testnet}
 genesisFileTemplatePath=${genesisFileTemplatePath:-${genesisFileTemplateDir}/${genesisFileName}}
 genesisFileTemplateBackupPath=${genesisFileTemplateBackupPath:-${genesisFileTemplateDir}/${genesisFileBackupName}}
 
 ledgerDir=${ledgerDir:-/home/indy/ledger}
-genesisFileDir=${genesisFileDir:-${ledgerDir}/sandbox}
+genesisFileDir=${genesisFileDir:-${ledgerDir}/testnet}
 genesisFilePath=${genesisFilePath:-${genesisFileDir}/${genesisFileName}}
 
 nodeArg=""
